@@ -4,7 +4,9 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+var 
+
+oose = require('mongoose');
 var Promise = require('bluebird');
 
 var index = require('./routes/index');
@@ -13,7 +15,12 @@ var api = require('./routes/api.js');
 var app = express();
 
 var mongoDb = process.env.MONGODB_URI || 'mongodb://localhost';
-mongoose.connect(mongoDb + '/contact-groups');
+
+mongoose.connect(mongoDb + '/contact-groups', function(err) {
+    if (err) {
+      console.log("connection to mongo failed");
+    }
+});
 
 Promise.promisifyAll(mongoose);
 
