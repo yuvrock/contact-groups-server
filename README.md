@@ -1,19 +1,19 @@
-# contact-groups-server
+# Contact-Groups-Server
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4cfef7538dfe421a97985df2a0d1a662)](https://www.codacy.com/app/jboss-outreach/contact-groups-server?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jboss-outreach/contact-groups-server&amp;utm_campaign=Badge_Grade)
 
 [![Build Status](https://travis-ci.org/jboss-outreach/contact-groups-server.svg?branch=master)](https://travis-ci.org/jboss-outreach/contact-groups-server)
 
 
-## Setting up the app
-1. Install [Node.js](https://nodejs.org)
-2. Install [MongoDB](https://mongodb.com)
+## Setting up the app:
+1. Install [Node.js](https://nodejs.org).
+2. Install [MongoDB](https://mongodb.com).
 3. Clone this Git repository:
 ```bash
-$ git clone https://github.com/jboss-outreach/contact-groups-server
+$ git clone https://github.com/jboss-outreach/contact-groups-server.
 ```
 
-## Running the app
+## Running the app:
 1. Install all Node dependencies:
 ```bash
 $ npm install
