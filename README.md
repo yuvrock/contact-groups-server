@@ -8,7 +8,7 @@
 ## Setting up the app:
 1. Install [Node.js](https://nodejs.org).
 2. Install [MongoDB](https://mongodb.com).
-3. Clone this Git repository:
+3. Clone this Git repository by the using the following command:
 ```bash
 $ git clone https://github.com/jboss-outreach/contact-groups-server.
 ```
